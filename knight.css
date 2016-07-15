@@ -3,9 +3,14 @@
 	margin:0;
 	overflow:hidden;
 }
+
+.container{
+  margin-top:400;
+}
+
 .canvasLayer{
 	position:absolute;
-	top:220;
+	top:0;
 	left:0;
 	width:1024px;
 	height:768px;
@@ -13,14 +18,14 @@
 }
 .backLayer{
 	position:absolute;
-	top:220;
+	top:0;
 	left:0;
 	width:1024px;
 	height:768px;
 }
 .imgLayer{
 	position:absolute;
-	top:220;
+	top:0;
 	left:0;
 	width:1024px;
 	height:768px;
