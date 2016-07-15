@@ -1,0 +1,55 @@
+*{
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+.canvasLayer{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1024px;
+	height:768px;
+	opacity:0;
+}
+.backLayer{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1024px;
+	height:768px;
+}
+.imgLayer{
+	position:absolute;
+	top:0;
+	left:0;
+	width:1024px;
+	height:768px;
+}
+.colour{
+	position:absolute;	
+	z-index:20;
+}
+#controls{
+	position:fixed;
+	top:0;
+	left:0;
+	background-color: #666666;
+	z-index: -1;
+}
+
+#selected{
+	left:270px;
+	top:10px;
+	border-style:solid;
+	border-color: #000000;
+	border-width: 1px;
+}
+#reset{
+	position:absolute;
+	left:30px;
+	top:350px;
+	width:40px;
+	height:40px;
+	z-index:20;
+	value:reset;
+}
