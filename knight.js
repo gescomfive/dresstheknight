@@ -31,7 +31,7 @@ var dArray = new Array();
 function create_canvas(container){
 
 	var winWidth 	= 1024;
-	var winHeight 	= 768;
+	var winHeight 	= 924;
   	var destX 		= 0;
   	var destY 		= 0;  	
 
