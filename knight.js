@@ -39,7 +39,8 @@ function create_canvas(container){
     backCanvas 				= document.createElement('canvas');
     backCanvas.id 			= 'backCanvas';
     backCanvas.className 	= "canvasLayer";
-    backCanvas.style.zIndex = 1;   
+    backCanvas.style.zIndex = 1;  
+  	backCanvas.style.top = 400;
 
     //create all the div elements that hold the different colour pictures
     backImgDiv 				= document.createElement('img');
